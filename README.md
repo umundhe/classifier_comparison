@@ -50,7 +50,3 @@ The bank conducts phone-based marketing. The goal is to predict the success of t
 1. Ensure you have Python 3.x and the following libraries installed: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`.
 2. Place the `bank-additional-full.csv` file in the same directory as the notebook.
 3. Open and run the `bank_marketing_analysis.ipynb` file.
-
-## Recommendations
-- **Balance the Data**: Future work should involve oversampling (SMOTE) or undersampling to improve the Recall for the 'yes' class.
-- **Focus on F1**: Move away from Accuracy as the primary metric to better capture model effectiveness on the minority class.
